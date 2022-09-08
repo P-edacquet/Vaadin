@@ -1,5 +1,6 @@
-package com.example.application.views.list;
+package com.example.application.views;
 
+import com.example.application.views.list.ListView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.html.H1;
@@ -14,7 +15,7 @@ public class MainLayout extends AppLayout {
     public MainLayout() {
         createHeader();
         createDrawer();
-    }
+    } 
 
     private void createHeader() {
         H1 logo = new H1("Vaadin CRM");
