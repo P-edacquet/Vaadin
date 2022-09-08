@@ -15,7 +15,7 @@ public class MainLayout extends AppLayout {
     public MainLayout() {
         createHeader();
         createDrawer();
-    } 
+    }
 
     private void createHeader() {
         H1 logo = new H1("Vaadin CRM");
@@ -36,7 +36,8 @@ public class MainLayout extends AppLayout {
         listView.setHighlightCondition(HighlightConditions.sameLocation());
 
         addToDrawer(new VerticalLayout(
-            listView
+            listView,
+            new RouterLink("Dashboard", DashboardView.class)
         ));
     }
 }
