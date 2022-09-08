@@ -259,8 +259,7 @@
     "lit": "$lit",
     "@polymer/polymer": "$@polymer/polymer",
     "chokidar": "$chokidar",
-    "date-fns": "$date-fns",
-    "line-awesome": "$line-awesome"
+    "date-fns": "$date-fns"
   },
   "vaadin": {
     "dependencies": {
